@@ -1,0 +1,53 @@
+"""list of objects which contains information of questions and answers"""
+questions = [
+    {
+      "question": "Hi there, would you be interested in a short technical quiz? ",
+      "1": "Yes",
+      "2": "No",
+    },
+    {
+        "no": '1',
+        "question": "Which of the following is not a valid data type in Java programming language?",
+        "1": "boolean",
+        "2": "char",
+        "3": "String",
+        "4": "json",
+        "answer": 4,
+    },
+    {
+        "no": '2',
+        "question": "What is the purpose of the `super` keyword in Java?",
+        "1": "Calls the superclass constructor.",
+        "2": "References the immediate child class.",
+        "3": "Declares a superclass method.",
+        "4": "Specifies a static variable.",
+        "answer": 1,
+    },
+    {
+        "no": "3",
+        "question": "What is the use of the 'finally' block in a Java try-catch-finally statement?",
+        "1": "It is executed if an exception is thrown.",
+        "2": "It always executes, whether an exception is thrown or not.",
+        "3": "It is only executed if there is no exception.",
+        "4": "It is used to catch exceptions.",
+        "answer": 2,
+    },
+    {
+        "no": "4",
+        "question": "What is the difference between `ArrayList` and `LinkedList` in Java?",
+        "1": "'ArrayList' is synchronized, while 'LinkedList' is not.",
+        "2": "'ArrayList' is a resizable array, and 'LinkedList' is a doubly-linked list.",
+        "3": "'ArrayList' allows faster random access, while 'LinkedList' is more efficient for frequent insertions and deletions.",
+        "4": "ArrayList can only store objects, while LinkedList can store both objects and primitive data types.",
+        "answer": 3,
+    },
+    {
+        "no": "5",
+        "question": "What is the purpose of the `static` keyword in Java?",
+        "1": "Marks a variable for garbage collection.",
+        "2": "Declares a constant variable.",
+        "3": "Indicates that a method or variable belongs to the class, not an instance.",
+        "4": "Specifies that a class is abstract.",
+        "answer": 3,
+    },
+]
