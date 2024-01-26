@@ -1,12 +1,7 @@
 """list of objects which contains information of questions and answers"""
 questions = [
     {
-      "question": "Hi there, would you be interested in a short technical quiz? ",
-      "1": "Yes",
-      "2": "No",
-    },
-    {
-        "no": '1',
+        "no": 1,
         "question": "Which of the following is not a valid data type in Java programming language?",
         "1": "boolean",
         "2": "char",
@@ -15,7 +10,7 @@ questions = [
         "answer": 4,
     },
     {
-        "no": '2',
+        "no": 2,
         "question": "What is the purpose of the `super` keyword in Java?",
         "1": "Calls the superclass constructor.",
         "2": "References the immediate child class.",
@@ -24,7 +19,7 @@ questions = [
         "answer": 1,
     },
     {
-        "no": "3",
+        "no": 3,
         "question": "What is the use of the 'finally' block in a Java try-catch-finally statement?",
         "1": "It is executed if an exception is thrown.",
         "2": "It always executes, whether an exception is thrown or not.",
@@ -33,7 +28,7 @@ questions = [
         "answer": 2,
     },
     {
-        "no": "4",
+        "no": 4,
         "question": "What is the difference between `ArrayList` and `LinkedList` in Java?",
         "1": "'ArrayList' is synchronized, while 'LinkedList' is not.",
         "2": "'ArrayList' is a resizable array, and 'LinkedList' is a doubly-linked list.",
@@ -42,7 +37,7 @@ questions = [
         "answer": 3,
     },
     {
-        "no": "5",
+        "no": 5,
         "question": "What is the purpose of the `static` keyword in Java?",
         "1": "Marks a variable for garbage collection.",
         "2": "Declares a constant variable.",
