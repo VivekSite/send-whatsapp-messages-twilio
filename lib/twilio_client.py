@@ -9,8 +9,8 @@ global_var = {
 }
 
 
-SENDER = "whatsapp:+14155238886"
-RECEIVER = "whatsapp:+919106422767"
+SENDER = os.environ["TWILIO_SENDER"]
+RECEIVER = os.environ["TWILIO_RECEIVER"]
 
 
 # client instance of twilio
